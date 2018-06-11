@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+/* feuille de style Akbar zoning_2 */
+
+#container{
+    width: 1000px;
+    background: wheat;
+    margin: 0 auto;
+}
+
+    /* Styles multi-sections */
+/* le tret en-bas de chaque titre des sections */
+.tiret{
+    margin: 20px auto;
+    background: magenta;
+    height: 5px;
+    width: 30px;
+    border-radius: 5px;
+}
+/* tiret-bas du titre footer */
+.tiret2{
+    margin: 20px 10px;
+    background: magenta;
+    height: 5px;
+    width: 30px;
+    border-radius: 5px;
+}
+/* tiret-bas du titre header */
+.tiret_h1{
+    margin: 0 100px;
+    background: magenta;
+    height: 5px;
+    width: 30px;
+    border-radius: 5px;
+}
+/* le ptit rectangle rose à la fin du chaque paragraphe */
+span{
+    color: magenta;
+}
+    /* Fin style multi-sections */
+
+    /* partie style header */
+header{
+    background: url('../img/woddPlank.jpg') no-repeat;
+    height: 400px;
+}
+
+/* titre h1 */
+header h1{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+/* style menu */
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 3em;
+ 
+}
+
+nav{
+    display: inline-block;
+    width: 500px;
+    margin-left: 300px;
+}
+
+/* image png du cerf */
+.cerf{
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+    /* Fin style header */
+
+/* style sections */
+.text{
+    width: 446px;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 50px; 
+    text-align: center;
+}
+
+.img{
+    display: inline-block;
+    margin: 0;
+}
+
+.text2{
+    width: 394px;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 50px; 
+    text-align: center;
+}
+/* FIN style sections */
+
+    /* style footer */
+footer{
+    height: 200px;
+    margin: 50px 50px;
+}
+
+address{
+    display: inline-block;
+}
+/* icons f-a */
+.font{
+    display: inline-block;
+    margin-left: 300px;
+}
+/* la liste des icons */
+footer ul li{
+    list-style: none;
+    color: magenta;
+    display: inline-block;
+}
